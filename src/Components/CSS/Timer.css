@@ -1,0 +1,11 @@
+.BtnControl{
+  background-color: #a8dadc;
+  margin-top: 1em;
+}
+.BtnControl img{
+  height: 2em;
+  width: auto;
+  padding: 0;
+  border: 0;
+
+}

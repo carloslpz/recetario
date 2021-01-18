@@ -1,0 +1,31 @@
+.SearchBar{
+    display: flex;
+    justify-content: center;
+    background-image: url("../../Images/search.jpg");
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+}
+
+.SearchBar__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(237, 246, 249, .85); 
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 80%;
+    width: 60%;
+}
+.SearchBar__inner img{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 2em;
+    width: 2em;
+}
+.SearchBar__inner input{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: auto;
+    width: 40%;
+}

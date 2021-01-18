@@ -1,0 +1,9 @@
+.Logo{
+    width: 25%;
+}
+
+.btn-Primary{
+    background-color: #ff9f1c;
+    outline-color: #ff9f1c;
+    margin-top:1.5em;
+}

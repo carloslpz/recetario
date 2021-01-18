@@ -1,0 +1,34 @@
+.foto{
+    width: 100%;
+    height: 169px;
+}
+
+.icono{
+    height: 1.5em;
+    width: auto;
+    padding: .2em .5em 0 .5em;
+}
+
+.imgUser{
+    width: 40%;
+    height: auto;
+    padding-right: 1em;
+}
+
+.btnConf{
+    background-color: #ff9f1c;
+    border-color:#006d77;
+    color: white;
+    padding: .1em .4em;
+}
+
+.btnConf:hover{
+    background-color: #ffbf69;
+}
+.Datos{
+    padding-bottom: 1em;
+}
+
+.title{
+    min-height: 3em;
+}

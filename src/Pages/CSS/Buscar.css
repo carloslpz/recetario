@@ -1,0 +1,11 @@
+.Btn-Ordenar{
+    background-color: #457b9d;
+    width: fit-content;
+    display:inline;
+    margin-left: 1em;
+}
+
+.Fila{
+    margin: 1em auto 2em auto;
+    width: 90%;
+}

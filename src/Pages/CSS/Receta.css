@@ -1,0 +1,46 @@
+.Background{
+    display: flex;
+    justify-content: center;
+    background-image: url("../../Images/background.jpg");
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.Btn-primary{
+    background-color: #ff9f1c;
+    outline-color: #ff9f1c;
+    margin-top:1.5em;
+    width: 45%;
+}
+.Btn-primary:hover{
+    background-color: #ffbf69;
+}
+.Breadcrumbs{
+    justify-self: flex-start;
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% 5% 0% 5%;   
+    height: 100%;
+    width: 95%;
+    background-color: #ffffff;
+    opacity: 1;
+}
+.Main__opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Presentacion{
+    margin-top:2em;
+}
+
+.mainFoto{
+    width: 100%;
+    height: auto;
+}
+.Presentacion__desc{
+    text-align: justify;
+}

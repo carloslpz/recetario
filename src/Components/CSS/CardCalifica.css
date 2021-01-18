@@ -1,0 +1,18 @@
+.Cont{
+    padding: 2em;
+    margin-bottom: 4em;
+    justify-content: center;
+    outline: solid #cbf3f0;
+    border-radius: 10px;
+    height: fit-content;
+    width: 80%;
+}
+
+.boton{
+    height: fit-content;
+    width: 60%;
+}
+.boton{
+    height: 80%;
+    width: 80%;
+}

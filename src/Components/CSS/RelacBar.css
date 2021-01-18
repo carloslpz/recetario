@@ -1,0 +1,22 @@
+.Relacionados{
+    outline: solid #cbf3f0;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 1em 2em;
+    width: 95%;
+}
+
+.VerMas_img{
+    width: 100%;
+    height: auto;
+}
+.VerMas{
+    width: 31%;
+    height: auto;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+.Next{
+    background-color: #1d3557;
+    opacity: .3;
+}

@@ -1,0 +1,28 @@
+.Formulario{
+    align-self:center;
+    justify-self:center;
+    border-color: #006d77;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.Enviar{
+    background-color: #457b9d;
+    width: fit-content;
+    display:inline;
+    color:white;
+    border-color: #2ec4b6;
+    padding:.1em 1em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+.Enviar:hover{
+    text-decoration: none;
+    color:white;
+    padding: 0 1.2em;
+}
+
+.Logo{
+    width:25%;
+    height: auto;
+}

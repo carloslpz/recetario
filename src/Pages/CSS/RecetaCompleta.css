@@ -1,0 +1,31 @@
+.Btn-primary{
+    background-color: #ff9f1c;
+    outline-color: #ff9f1c;
+    color: white;
+    margin-top:1.5em;
+    width: 45%;
+}
+.Btn-help{
+    background-color: #006d77;
+    outline-color: #83c5be;
+    margin-top:1.5em;
+    width: 45%;
+}
+.Contenido{
+    padding-top:4em;
+}
+
+.mainFoto{
+    width: 100%;
+    height: auto;
+}
+.Paso{
+    margin: 3em auto;
+}
+.Paso-Foto{
+    width: 60%;
+    height: auto;
+}
+.DescPaso{
+    text-align: justify;
+}

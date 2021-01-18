@@ -1,0 +1,42 @@
+.Navbar{
+    background-color: #2ec4b6;
+    display:flex;
+    justify-content: space-between;
+    padding: .8rem 0 0;
+    margin-bottom: 1rem;
+    height: 75px;
+    width: 100%;
+}
+
+.btn-buscar{
+    background-color: azure;
+    border-color: #2ec4b6;
+    padding:.1em 1em;
+    margin: auto 1em;
+    color: #1d3557;
+}
+.btn-buscar:hover{
+    background-color: azure;
+    padding: .15em 1em;
+    color: #1d3557;
+    text-decoration: none;
+}
+
+.Navbar__logo{
+    margin-right: 0.5rem;
+}
+.Navbar__user{
+    display: flex;
+    justify-content: left;
+    order:2;
+}
+.Navbar__user-img{
+    display: flex;
+    justify-content: left;
+}
+
+.icon {
+    margin: 0em 1.5em 0em 1em;
+    width: auto;
+    height: 90%;
+  }

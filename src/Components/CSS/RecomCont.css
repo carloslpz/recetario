@@ -1,0 +1,25 @@
+.Accord{
+    align-self: center;
+    justify-self: center;
+    margin-top:0;
+    margin-bottom:2.5em;
+}
+
+.Contenido{
+    outline: solid #006d77 2px;
+    align-self: center;
+}
+
+.Contenido__Col{
+    width: 100%;
+}
+.Opcion{
+    width: 100%;
+    margin: 1em;
+    outline: solid #ff9f1c 1px;
+}
+
+.iconImg{
+    width:3em;
+    height: 3em;
+}

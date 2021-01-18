@@ -1,0 +1,27 @@
+.user_photo{
+    width:40%;
+}
+
+.Top{
+    margin-bottom: 1em;
+}
+
+.Info{
+    outline: solid #006d77 2px;
+    width: 45em;
+    margin: 1em;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.RecInd{
+    outline: solid #006d77 2px;
+    border-radius: 1000px;
+    margin: 1em;
+}
+
+.plh_receta{
+    width: 30%;
+    margin: 1em;
+}

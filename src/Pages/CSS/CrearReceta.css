@@ -1,0 +1,50 @@
+.plh_camera{
+    width: 30%;
+    height: auto;
+}
+
+.Upload{
+    cursor: pointer;
+ }
+ 
+ #upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
+
+ .ing{
+     margin-bottom: 1em;
+ }
+
+ .img_add{
+    height: 2em;
+    width: 2em;
+ }
+
+ .btn_add{
+    height:fit-content;
+    width:fit-content;
+    margin-top:2em;
+    background-color: white;
+ }
+ .btn_add:hover{
+    height:fit-content;
+    width:fit-content;
+    background-color: aliceblue;
+ }
+
+ .Enviar{
+    background-color: #457b9d;
+    display:inline;
+    color:white;
+    border-color: #2ec4b6;
+    padding:.1em 1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.Enviar:hover{
+    text-decoration: none;
+    color:white;
+    padding: 0 1.2em;
+}

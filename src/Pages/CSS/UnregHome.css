@@ -1,0 +1,9 @@
+.Carrusel{
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+}
+.Carrusel img{
+    width: 100%;
+    height: 70vh;
+}

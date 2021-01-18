@@ -1,0 +1,27 @@
+.Cont{
+    display:grid;
+    padding-top: 0%;
+    margin-top: 0%;
+    border-top: 0%;
+    outline: solid #cbf3f0;
+    border-radius: 10px;
+    height: fit-content;
+    width: 80%;
+}
+.Cont__datos img{
+    height: 1.5em;
+    width: auto;
+    padding: .2em .5em 0 .5em;
+}
+.Cont__descripcion{
+    text-align: justify;
+    padding: 0 1em 1em 0
+}
+.Cont__image{
+    height:90px;
+    padding: 1em;
+    width:auto;
+}
+.Titulo{
+    justify-self: center;
+}
