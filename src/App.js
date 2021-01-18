@@ -17,6 +17,8 @@ import RecetaCompleta from './Pages/RecetaCompleta'
 function App() {
   return (
     <div className="App">
+      <Home/>
+      {/*
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path='/home' component={Home}/>
@@ -30,7 +32,7 @@ function App() {
           <Route exact path='/receta/completa' component={RecetaCompleta}/>
           <Route path='/' component={UnregHome}/>
         </Switch>
-      </BrowserRouter>
+      </BrowserRouter>*/}
 
     </div>
   );
