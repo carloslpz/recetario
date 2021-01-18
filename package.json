@@ -1,6 +1,6 @@
 {
   "name": "cliente-ux",
-  "home": "https://carloslpz.github.io/recetario",
+  "homepage": "https://carloslpz.github.io/recetario",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
