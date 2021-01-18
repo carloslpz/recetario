@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {Router, Route, Switch} from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,20 +17,20 @@ import RecetaCompleta from './Pages/RecetaCompleta'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
         <Switch>
-          <Route exact path='/recetario' component={UnregHome}/>
-          <Route exact path='/recetario/home' component={Home}/>
-          <Route exact path='/recetario/login' component={Login}/>
-          <Route exact path='/recetario/register' component={Register}/>
-          <Route exact path='/recetario/usuario' component={Usuario}/>
-          <Route exact path='/recetario/buscar' component={Buscar}/>
-          <Route exact path='/recetario/receta' component={Receta}/>
-          <Route exact path='/recetario/crearReceta' component={CrearReceta}/>
-          <Route exact path='/recetario/receta/guiada' component={RecetaGuiada}/>
-          <Route exact path='/recetario/receta/completa' component={RecetaCompleta}/>
+          <Route exact path='/home' component={Home}/>
+          <Route exact path='/login' component={Login}/>
+          <Route exact path='/register' component={Register}/>
+          <Route exact path='/usuario' component={Usuario}/>
+          <Route exact path='/buscar' component={Buscar}/>
+          <Route exact path='/receta' component={Receta}/>
+          <Route exact path='/crearReceta' component={CrearReceta}/>
+          <Route exact path='/receta/guiada' component={RecetaGuiada}/>
+          <Route exact path='/receta/completa' component={RecetaCompleta}/>
+          <Route path='/' component={UnregHome}/>
         </Switch>
-      </BrowserRouter>
+      </Router>
 
     </div>
   );
