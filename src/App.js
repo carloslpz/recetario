@@ -17,7 +17,7 @@ import RecetaCompleta from './Pages/RecetaCompleta'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path='/home' component={Home}/>
           <Route exact path='/login' component={Login}/>
