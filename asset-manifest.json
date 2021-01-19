@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/recetario/static/css/main.0b0918db.chunk.css",
-    "main.js": "/recetario/static/js/main.194deba7.chunk.js",
-    "main.js.map": "/recetario/static/js/main.194deba7.chunk.js.map",
-    "runtime-main.js": "/recetario/static/js/runtime-main.ef2a8e39.js",
-    "runtime-main.js.map": "/recetario/static/js/runtime-main.ef2a8e39.js.map",
+    "main.js": "/recetario/static/js/main.e505dea7.chunk.js",
+    "main.js.map": "/recetario/static/js/main.e505dea7.chunk.js.map",
+    "runtime-main.js": "/recetario/static/js/runtime-main.3445c234.js",
+    "runtime-main.js.map": "/recetario/static/js/runtime-main.3445c234.js.map",
     "static/css/2.9c4ae035.chunk.css": "/recetario/static/css/2.9c4ae035.chunk.css",
-    "static/js/2.b6bed839.chunk.js": "/recetario/static/js/2.b6bed839.chunk.js",
-    "static/js/2.b6bed839.chunk.js.map": "/recetario/static/js/2.b6bed839.chunk.js.map",
-    "static/js/3.951d0403.chunk.js": "/recetario/static/js/3.951d0403.chunk.js",
-    "static/js/3.951d0403.chunk.js.map": "/recetario/static/js/3.951d0403.chunk.js.map",
+    "static/js/2.d40071f9.chunk.js": "/recetario/static/js/2.d40071f9.chunk.js",
+    "static/js/2.d40071f9.chunk.js.map": "/recetario/static/js/2.d40071f9.chunk.js.map",
+    "static/js/3.c0d454af.chunk.js": "/recetario/static/js/3.c0d454af.chunk.js",
+    "static/js/3.c0d454af.chunk.js.map": "/recetario/static/js/3.c0d454af.chunk.js.map",
     "index.html": "/recetario/index.html",
     "static/css/2.9c4ae035.chunk.css.map": "/recetario/static/css/2.9c4ae035.chunk.css.map",
     "static/css/main.0b0918db.chunk.css.map": "/recetario/static/css/main.0b0918db.chunk.css.map",
-    "static/js/2.b6bed839.chunk.js.LICENSE.txt": "/recetario/static/js/2.b6bed839.chunk.js.LICENSE.txt",
+    "static/js/2.d40071f9.chunk.js.LICENSE.txt": "/recetario/static/js/2.d40071f9.chunk.js.LICENSE.txt",
     "static/media/add.c60b8b47.svg": "/recetario/static/media/add.c60b8b47.svg",
     "static/media/Receta.css": "/recetario/static/media/background.1b6bc76a.jpg",
     "static/media/buscar.1ca7eabf.svg": "/recetario/static/media/buscar.1ca7eabf.svg",
@@ -30,6 +30,8 @@
     "static/media/mainReceta3.f2b9608e.jpg": "/recetario/static/media/mainReceta3.f2b9608e.jpg",
     "static/media/mainReceta4.e97619e4.jpg": "/recetario/static/media/mainReceta4.e97619e4.jpg",
     "static/media/paso1.23c00102.jpg": "/recetario/static/media/paso1.23c00102.jpg",
+    "static/media/paso2.809157b1.jpg": "/recetario/static/media/paso2.809157b1.jpg",
+    "static/media/paso3.4cf7d83c.jpg": "/recetario/static/media/paso3.4cf7d83c.jpg",
     "static/media/play_pause.11c0a1f5.svg": "/recetario/static/media/play_pause.11c0a1f5.svg",
     "static/media/pozole2.de278dd1.jpg": "/recetario/static/media/pozole2.de278dd1.jpg",
     "static/media/pozole3.969b0a1f.jpg": "/recetario/static/media/pozole3.969b0a1f.jpg",
@@ -40,10 +42,10 @@
     "static/media/stop.4b94e61c.svg": "/recetario/static/media/stop.4b94e61c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ef2a8e39.js",
+    "static/js/runtime-main.3445c234.js",
     "static/css/2.9c4ae035.chunk.css",
-    "static/js/2.b6bed839.chunk.js",
+    "static/js/2.d40071f9.chunk.js",
     "static/css/main.0b0918db.chunk.css",
-    "static/js/main.194deba7.chunk.js"
+    "static/js/main.e505dea7.chunk.js"
   ]
 }
