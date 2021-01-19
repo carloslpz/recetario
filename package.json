@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "artyom.js": "^1.0.6",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
     "pretty-ms": "^7.0.1",
     "react": "^17.0.1",

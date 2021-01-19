@@ -41,9 +41,11 @@ class Paso extends React.Component{
                         }
                     </Col>
                 }
-                <Col>
-                    <img src={this.props.contenido.foto} className='ImgPaso'/>
-                </Col>
+                {this.props.contenido.foto &&
+                    <Col>
+                        <img src={this.props.contenido.foto} className='ImgPaso'/>
+                    </Col>
+                }
             </Row>
             </Container>
         )

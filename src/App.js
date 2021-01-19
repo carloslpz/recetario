@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {HashRouter, Route, Switch} from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,7 +17,7 @@ import RecetaCompleta from './Pages/RecetaCompleta'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path='/home' component={Home}/>
           <Route exact path='/login' component={Login}/>
@@ -30,7 +30,7 @@ function App() {
           <Route exact path='/receta/completa' component={RecetaCompleta}/>
           <Route path='/' component={UnregHome}/>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

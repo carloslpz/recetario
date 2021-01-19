@@ -1,4 +1,6 @@
 import React from 'react'
+
+import axios from 'axios'
 //Importar config voz
 import Artyom from 'artyom.js';
 import ArtyomCommandsManager from '../Components/ArtyomCommandsManager.js';
@@ -39,6 +41,7 @@ class RecetaGuiada extends React.Component{
             artyomIsReading: false,
             metaReceta:{
                 title: 'Spaghetti con chile poblano',
+                imgPrincipal: mainReceta,
                 descripcion: 'Este spaghetti preparado en una cremosa y picosita salsa de chile poblano acompañado con elote será la sensación en casa o en cualquier evento donde la prepares. Es una pasta deliciosa que tiene ingredientes muy mexicanos que no puedes dejar de preparar. ¡Inténtalo!',
                 pasoActual: 0,
                 numPasos: 2
@@ -112,8 +115,8 @@ class RecetaGuiada extends React.Component{
             {
                 indexes: ["continuar", "reanudar", "reanuda"],
                 action: () => {
-                    Artyom.say("reanudando cronometro?");
-                    console.log("reanudando cronometro?");
+                    Artyom.say("reanudando cronómetro");
+                    console.log("reanudando cronometro");
                 }
             },
             {
@@ -141,7 +144,7 @@ class RecetaGuiada extends React.Component{
         }).then(() => {
             
             console.log("Control de voz iniciado");
-            listener.say("Ya puedes comenzar a decir los comandos");
+            listener.say("Ya puedes comenzar. Intenta decir siguiente o avanzar para avanzar el paso. o anterior o retroceder para regresar un paso. Tambien puedes decir iniciar o pausar para el cronómetro.");
 
             _this.setState({
                 artyomActive: true
@@ -158,6 +161,43 @@ class RecetaGuiada extends React.Component{
         this.pausarCron = this.pausarCron.bind(this);
         this.startArtyom = this.startArtyom.bind(this);
     }
+
+    componentDidMount(){
+        axios.get(`https://localhost:44363/aPI/api/1`)
+            .then(res => {
+                this.setState({
+                    ...this.state,
+                    metaReceta: {
+                        title: res.data.nombre,
+                        imgPrincipal: res.data.nombreImagen,
+                        descripcion: res.data.descripcion,
+                        pasoActual: 0,
+                        numPasos:   Object.keys(res.data.pasos).length - 1
+                    },
+                    contenido:[
+                        {
+                            title: "Prepara los ingredientes",
+                            ings: [res.data.ingredientes],
+                            procedimiento: null,
+                            foto: res.data.nombreImagen,
+                            cronom: null
+                        },
+                        res.data.pasos.map( paso => {
+                            return(
+                                {
+                                    title: `Paso ${paso.noPaso + 1}`,
+                                    ings: null,
+                                    procedimiento: paso.texto,
+                                    foto: paso.imagen,
+                                    cronom: paso.tiempoTemporizador
+                                }
+                            )
+                        })
+                    ]
+                });
+            }).then(() => console.log(this.state))
+    }
+
     //Terminar de escuchar al salir de la pagina
     componentWillUnmount(){
         let _this = this;
@@ -332,7 +372,7 @@ class RecetaGuiada extends React.Component{
                                     </Row> 
                                 </Col>
                                 <Col>
-                                    <img src={mainReceta} className='ImgPaso'/>
+                                    <img src={this.state.metaReceta.mainReceta} className='ImgPaso'/>
                                 </Col>
                             </Row>
                         </Container>
